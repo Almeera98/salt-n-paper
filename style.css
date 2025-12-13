@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    
+}
+
+body {
+    background: black;
+}
+
+.navbar {
+    width: 100%;
+    padding: 20px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:black;
+}
+
+.logo img {
+    height: 45px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    
+}
+
+.nav-links a:hover {
+    color: red;
+}
+
+.nav-buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.franchise-btn {
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.franchise-btn:hover {
+    background: white;
+    color: black;
+}
+
+.order-btn {
+    padding: 10px 20px;
+    border-radius: 25px;
+    background:red;
+    color: white;
+    text-decoration: none;
+    
+    
+}
+
+.order-btn:hover {
+    background:red;
+}
