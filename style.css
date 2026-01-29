@@ -5,9 +5,13 @@
     font-family: Arial, sans-serif;
     
 }
-
-body {
-    background: black;
+@font-face{
+    font-family: "inter";
+    src:url(./font/Inter-Italic-VariableFont_opsz\,wght.ttf);
+}
+@font-face{
+    font-family:"futurak";
+    src:url(./font/futurak.ttf);
 }
 
 .navbar {
@@ -16,7 +20,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color:black;
+    background-color : black;
 }
 
 .logo img {
@@ -66,10 +70,90 @@ body {
     background:red;
     color: white;
     text-decoration: none;
-    
-    
 }
 
 .order-btn:hover {
     background:red;
+}
+
+/* banner */
+ .banner{
+    width: 100%;
+ }
+ .banner img{
+    width: 100%;
+ }
+ .brand{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 100px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+ }
+ .brand .contant{
+    text-align: center;
+ }
+ .container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+ }
+ .box1{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+ }
+ .box1 img{
+    width: 100%;
+  background-color: white;
+}
+#salt{
+    font-family: futurak;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+.brand h1{
+    font-family: inter;
+    font-size: 52px;
+     font-style: normal;
+    font-weight: 400;
+}
+.brand button{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    padding: 20px 40px;
+    color: white;
+    border: 1px solid white;
+    border-radius:50px ;
+}
+.franchise section
+
+.franchise{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 100px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+.franchise.contant{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.franchise.isb{
+    display: flex;
+    gap: 100px;
 }
